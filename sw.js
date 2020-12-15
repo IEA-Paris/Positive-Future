@@ -1,4 +1,4 @@
-const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"cacheOptions":{"cacheId":"root_frontend-prod","directoryIndex":"/","revision":"YDKMvG1tfypr"},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":[{"revision":"YDKMvG1tfypr","url":"/positive-future/?standalone=true"},{"revision":"YDKMvG1tfypr","url":"/positive-future/?standalone=true"}],"runtimeCaching":[{"urlPattern":"/positive-future/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/positive-future/","offlineStrategy":"NetworkFirst"}
+const options = {"workboxURL":"https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js","importScripts":[],"config":{"debug":false},"clientsClaim":true,"skipWaiting":true,"cleanupOutdatedCaches":true,"offlineAnalytics":false,"preCaching":["/positive-future/?standalone=true","/positive-future/?standalone=true"],"runtimeCaching":[{"urlPattern":"/positive-future/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/_nuxt/","handler":"CacheFirst","method":"GET","strategyPlugins":[]},{"urlPattern":"/positive-future/","handler":"NetworkFirst","method":"GET","strategyPlugins":[]}],"offlinePage":null,"pagesURLPattern":"/positive-future/","offlineStrategy":"NetworkFirst"}
 
 importScripts(...[options.workboxURL, ...options.importScripts])
 
@@ -49,7 +49,6 @@ function precacheAssets(workbox, options) {
     workbox.precaching.precacheAndRoute(options.preCaching, options.cacheOptions)
   }
 }
-
 
 function runtimeCaching(workbox, options) {
   for (const entry of options.runtimeCaching) {
