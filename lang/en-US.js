@@ -59,7 +59,7 @@ export default () => {
           health: 'Health',
           housing: 'Housing',
           imigration: 'Imigration',
-          information_communication: 'Information & communications',
+          information_communications: 'Information & communications',
           law_justice: 'Law, justice',
           leisure: 'Leisure',
           public_administration: 'Public administration',
@@ -97,7 +97,7 @@ export default () => {
       },
       navigation: {
         about: 'About us',
-        contest: 'Contest',
+        contest: 'Competition',
         resources: 'Food for thought',
         sab: 'Scientific Advisory Board',
         jury: 'Jury',
