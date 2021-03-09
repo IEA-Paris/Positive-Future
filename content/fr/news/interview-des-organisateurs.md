@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 en: []
 fr: []
 title: Interview des organisateurs
@@ -14,4 +14,4 @@ background_color: "#303F7C"
 ---
 Qu'attendons-nous exactement des participants au concours Positive Future dont l'objectif est de stimuler des discours alternatifs et porteurs d’espoir à l’horizon du siècle? **Les organisateurs du concours vous expliquent tout !**
 
-[https://youtu.be/8wESmmniGKw](https://youtu.be/8wESmmniGKw "https://youtu.be/8wESmmniGKw")
+Voir la vidéo : [https://youtu.be/8wESmmniGKw](https://youtu.be/8wESmmniGKw "https://youtu.be/8wESmmniGKw")
