@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 en: []
 fr: []
 title: Interview des organisateurs
@@ -7,7 +7,7 @@ subtitle: Saadi Lahlou, directeur de l'IEA de Paris & Jean-Eric Aubert, préside
   de la Fondation 2100 vous expliquent tout!
 categories:
 - other
-featured: false
+featured: true
 image: "/capture-interview-saadi-jean-eric.jpg"
 background_color: "#F2EEB5"
 
