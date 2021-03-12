@@ -4,7 +4,7 @@ en: []
 fr: []
 title: Interview des organisateurs
 subtitle: Saadi Lahlou, directeur de l'IEA de Paris & Jean-Eric Aubert, président
-  de la Fondation 2100 vous expliquent tout!
+  de la Fondation 2100 vous présentent le concours!
 categories:
 - other
 featured: true
